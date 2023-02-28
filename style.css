@@ -1,0 +1,124 @@
+.ko {
+  background-color: #040124;
+  color: #fefefe;
+}
+
+.ho{
+  margin: 0%;
+}
+
+.he {
+  text-align: right;
+}
+
+.koo{
+  text-align: center;
+}
+
+.hehe{
+  background-color: #040124;
+  color: #fefefe;
+  border: #040124 ;
+  border-radius: 5%;
+  font-size: 20pt;
+}
+
+.why{
+  margin-left: 8%;
+}
+
+body {
+  background-color: #f6fcfe;
+  color: #00191e;
+}
+
+.cards-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.card img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.card {
+  margin: 0 0.5em;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  border: none;
+  border-radius: 0;
+  text-align: center;
+}
+
+.carousel-inner {
+  padding: 1em;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: #461919;
+  width: 5vh;
+  height: 5vh;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.ievads {
+  padding: 2%;
+}
+
+.cardc{
+  margin-top: 1%;
+  margin-bottom: 2%;
+  margin-left: 1%;
+}
+
+.imgslid{
+  margin-left: 5%;
+}
+
+.intrfk{
+  display: flex;
+ justify-content: center;
+}
+
+.flag img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.flagi{
+  width: 40px;
+  margin-top: 3%;
+}
+
+.flag{
+  border: none;
+  background-color: #f6fcfe;
+}
+
+.car{
+  display: flex;
+  justify-content: center;
+}
+
+.ve{
+  display: flex;
+  align-items: center;
+}
+
+.car img{
+  max-width: 60%;
+  max-height: fit-content;
+  border-radius: 10%;
+}
+
+@media only screen and (max-width: 1200px) {
+ .ho{
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+ }
+}
+

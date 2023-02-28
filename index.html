@@ -1,0 +1,527 @@
+<!doctype html>
+<html lang="en">
+
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Good Omens</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <script src="hehe.js"></script>
+
+</head>
+
+<body>
+  <header>
+    <!-- navbar -->
+    <div>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Good Omens</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item flagi">
+                <button type="button" class="flag" onclick="flag3()"><img src="flag3.png" alt=""></button>
+              </li>
+              <li class="nav-item flagi">
+                <button type="button" class="flag" onclick="flag1()"><img src="flag.png" alt=""></button>
+              </li>
+              <li class="nav-item flagi">
+                <button type="button" class="flag" onclick="flag2()"><img src="flag2.png" alt=""></button>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false" id="saturs">
+                  Saturs
+                </a>
+                <ul class="dropdown-menu">
+                  <li><button type="button" id="goo1" class="dropdown-item" onclick="go1()">Ievads</button></li>
+                  <li><button type="button" id="goo2" class="dropdown-item" onclick="go2()">Sērijas</button></li>
+                  <li><button type="button" id="goo3" class="dropdown-item" onclick="go3()">Atsauces</button></li>
+                  <li><button type="button" id="goo4" class="dropdown-item" onclick="go4()">Galvenie varoņi</button>
+                  </li>
+                  <li><button type="button" id="goo5" class="dropdown-item" onclick="go5()">Pārējie varoņi</button></li>
+                  <li><button type="button" id="goo6" class="dropdown-item" onclick="go6()">Vel</button></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <!-- lielais sākuma attēls -->
+    <div>
+      <img src="uwu.jpg" class="img-fluid" alt="good omens">
+    </div>
+    <div class="row ievads">
+      <div class="col-xl-6 col-lg-12 car">
+        <img src="mainimg.jpg" alt="">
+      </div>
+      <!-- ievads -->
+      <div class="col-xl-6 col-lg-12 ho">
+        <div class="card" style="width: 30rem;">
+          <div class="card-body">
+            <h5 class="card-title" id="ievads">Ievads</h5>
+            <h6 class="card-subtitle mb-2 text-muted" id="subievads">Īss seriāla apraksts</h6>
+            <p class="card-text" id="ievadstext">Šajā fantāzijas sērijālā, kas ir balstīta uz grāmatu,
+              tiek parādīts kā nervozais eņģelis Azirafals un brīvs
+              dēmons Kroulijs sadarbojas, lai izveidotu maz ticamu duetu.
+              Abi ir pārāk iecienījuši dzīvi uz Zemes, un viņi ir spiesti
+              sadarboties, cenšoties apturēt tuvojošos "Armagedonu".</p>
+          </div>
+        </div>
+      </div>
+      <!-- tabula -->
+      <div class="ievads">
+        <table class="table" id="tabula">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col" id="nosua">Nosaukums</th>
+              <th scope="col" id="time">Ilgums</th>
+              <th scope="col" id="imdb">IMDB vērtējums</th>
+              <th scope="col" id="desc">Īss apraksts</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>In The Beginning</td>
+              <td>51 min</td>
+              <td>8/10⭐</td>
+              <td id="desc1">Sākumā un pirms vienpadsmit gadiem divas nemirstīgas būtnes nolemj,
+                ka varbūt nav <br> laika sākt Apokalipses gaitas.</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>The Book</td>
+              <td>51 min</td>
+              <td>8/10⭐</td>
+              <td id="desc2">Gadiem ilgi sekojis nepareizajam zēnam, Azirafalam un Kroulijam
+                tagad jāmēģina atrast īstās<br> Antikrista atrašanās vietu.</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Hard Time</td>
+              <td>51 min</td>
+              <td>8.4/10⭐</td>
+              <td id="desc3"> Agneses Nateres pēctece Anatēma ierodas Tadfieldā uz savu
+                misiju, lai glābtu pasauli.</td>
+            <tr>
+              <th scope="row">4</th>
+              <td>Saturday Morning Funtime</td>
+              <td>51 min</td>
+              <td>8.1/10⭐</td>
+              <td id="desc4">“Armagedons” sākas, kad antikrista spējas rada nekārtību
+                visā pasaulē. </td>
+            <tr>
+              <th scope="row">5</th>
+              <td>The Doomsday Option</td>
+              <td>51 min</td>
+              <td>8.2/10⭐</td>
+              <td id="desc5">Azirafals un Kroulijs joņo uz Tadfield gaisa spēku bāzi,
+                mēģinādami novērst to,<br> ka Ādams un četri jātnieki sāk apokalipsi.</td>
+            <tr>
+              <th scope="row">6</th>
+              <td>The Very Last Day of the <br> Rest of Their Lives</td>
+              <td>51 min</td>
+              <td>8.4/10⭐</td>
+              <td id="desc6">Vai Ādams, Kroulijs un Azirafals var sadarboties, lai cīnītos
+                pret Debesu un Elles varenību un<br> novērstu apokalipsi?</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!-- akordions ar atsaucēm-->
+      <div class="row ievads">
+        <div class="col-xl-5 col-lg-5">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne" id="qoute1">
+                  Azirafala teiktais
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body" id="qoute12">
+                  "Viņam vajadzētu pastāstīt Kroulijam.
+                  Nē. Viņš gribēja pastāstīt Kroulijam.
+                  Viņam būtu jāpastāsta Debesīm."
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" id="qoute2" aria-controls="collapseTwo">
+                  Kroulija teiktais
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body" id="qoute22">
+                  “Dēmonam var rasties problēmas, rīkojoties pareizi. Smieklīgi,
+                  ja mēs abi kļūdījāmies, vai ne? Smieklīgi, ja es izdarīju labo lietu,
+                  bet tu - slikto, vai ne?"
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" id="qoute3">
+                  Nāves teiktais
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body" id="qoute32">
+                  "Nedomājiet par to kā par nāvi. Vienkārši iedomājieties to kā agru
+                  izbraukšanu, lai izvairītos nosteigas."
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingfore">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapsefore" aria-expanded="false" aria-controls="collapsefore" id="qoute4">
+                  Kroulija teiktais
+                </button>
+              </h2>
+              <div id="collapsefore" class="accordion-collapse collapse" aria-labelledby="headingfore"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body" id="qoute42">
+                  "Ko viņi šajās dienās liek banānos?"
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingfive">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive" id="qoute5">
+                  Ādama Jungu teiktais
+                </button>
+              </h2>
+              <div id="collapsefive" class="accordion-collapse collapse" aria-labelledby="headingfive"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body" id="qoute52">
+                  "Es nesaprotu, kas ir tik mazsvarīgs tajā, ka cilvēkus veido kā cilvēkus un pēc tam tiek sarūgtināts,
+                  jo
+                  viņi uzvedas kā cilvēki."
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingsix">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix" id="qoute6">
+                  Azirafala teiktais
+                </button>
+              </h2>
+              <div id="collapsesix" class="accordion-collapse collapse" aria-labelledby="headingsix"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body" id="qoute62">
+                  "Tu nevari mani nogalināt. Būs jāpilda papīri."
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingseven">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseseven" aria-expanded="false" aria-controls="collapseseven" id="qoute7">
+                  Stāstītāja teiktais
+                </button>
+              </h2>
+              <div id="collapseseven" class="accordion-collapse collapse" aria-labelledby="headingseven"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body" id="qoute72">
+                  Daudziem cilvēkiem, pirmo reizi satiekot Azirafalu, rodas trīs iespai: ka viņš ir anglis, ka viņš ir
+                  inteliģents un ka viņš ir gejāks par koku pilnu ar pērtiķiem uz slāpekļa oksīda.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- img slide -->
+        <div class="col-xl-6 col-lg-6 imgslid col-sm-12 col-12">
+          <div>
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="set1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="set2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="set3.webp" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="set4.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="set5.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="set6.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="set7.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="set8.webp" class="d-block w-100" alt="...">
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- interesanti fakti -->
+          <div class="intrfk col-sm-12 col-12">
+            <button type="button" onclick="interesantifact()" class="hehe" id="int">Interesanti fakti!</button>
+          </div>
+        </div>
+      </div>
+      <!-- galvenie varoņi -->
+      <div class="row cardc">
+        <div class="col-xl-6 col-lg-6 col-sm-12">
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4 col-sm-4 col-4">
+                <img src="aziraphel.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8 col-sm-8 col-8">
+                <div class="card-body">
+                  <h5 class="card-title" id="azif">Azirafals</h5>
+                  <p class="card-text" id="azift">Azirafals ir viens no galvenajiem varoņiem Amazon
+                    seriālā Good Omens. Viņš ir eņģelis, kurš darbojas kā rets grāmatu
+                    tirgotājs, un ir iemīlējis cilvēku ēdienu.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-6 col-lg-6 col-sm-12">
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4 col-sm-4 col-4">
+                <img src="croly.jfif" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8 col-sm-8 col-8">
+                <div class="card-body">
+                  <h5 class="card-title" id="cro">Kroulijs</h5>
+                  <p class="card-text" id="crot">Kroulijs ir viens no galvenajiem varoņiem Amazon
+                    seriālā Good Omens. Viņš ir dēmons, kurš ne tik daudz krita no debesīm,
+                    cik noslīdēja neskaidri lejup.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- varoņu slaids -->
+      <div>
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="cards-wrapper">
+                <div class="card" style="width: 11rem;">
+                  <img src="adam.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text" id="per1">Ādams Jangs</p>
+                  </div>
+                </div>
+                <div class="card" style="width: 11rem;">
+                  <img src="anathema.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text" id="per2">Anatēma Divaisa</p>
+                  </div>
+                </div>
+                <div class="card" style="width: 11rem;">
+                  <img src="ko13.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text" id="per3">Piesārņojums</p>
+                  </div>
+                </div>
+                <div class="card" style="width: 11rem;">
+                  <img src="death.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text" id="per4">Nāve</p>
+                  </div>
+                </div>
+                <div class="card" style="width: 11rem;">
+                  <img src="famine.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text" id="per5">Bads</p>
+                  </div>
+                </div>
+                <div class="card" style="width: 11rem;">
+                  <img src="sergant.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text" id="per6">Sers Pulsifers</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="cards-wrapper">
+                <div class="card" style="width: 11rem;">
+                  <img src="newt.jfif" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text" id="per7">Ņūtons Pulsifers</p>
+                  </div>
+                </div>
+                <div class="card" style="width: 11rem;">
+                  <img src="agnese.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text" id="per8">Agnese Natere</p>
+                  </div>
+                </div>
+                <div class="card" style="width: 11rem;">
+                  <img src="frend1.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text" id="per9">Pipars</p>
+                  </div>
+                </div>
+                <div class="card" style="width: 11rem;">
+                  <img src="brian.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text" id="per10">Braiens</p>
+                  </div>
+                </div>
+                <div class="card" style="width: 11rem;">
+                  <img src="wesly.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text" id="per11">Venslideils</p>
+                  </div>
+                </div>
+                <div class="card" style="width: 11rem;">
+                  <img src="dog.jfif" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text" id="per12">Suns</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="cards-wrapper">
+                <div class="card" style="width: 11rem;">
+                  <img src="gabriel.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text" id="per13">Gabriels</p>
+                  </div>
+                </div>
+                <div class="card" style="width: 11rem;">
+                  <img src="belce.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text" id="per14">Belcebuls</p>
+                  </div>
+                </div>
+                <div class="card" style="width: 11rem;">
+                  <img src="war.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text" id="per15">Karš</p>
+                  </div>
+                </div>
+                <div class="card" style="width: 11rem;">
+                  <img src="satan.webp" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text" id="per16">Sātans</p>
+                  </div>
+                </div>
+                <div class="card" style="width: 11rem;">
+                  <img src="young.webp" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text" id="per17">Artūrs Jungs</p>
+                  </div>
+                </div>
+                <div class="card" style="width: 11rem;">
+                  <img src="tracy.jfif" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text" id="per18">Misis Treisija</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <!-- saraksti -->
+      <div class="row ievads why">
+        <div class="col-xl-6 col-lg-6 col-sm-6">
+          <h2 id="why">Kapēc sktīties?</h2>
+          <ul>
+            <li id="li1">Brīnišķīgi aktieri</li>
+            <li id="li2">Tas ir miniseriāls</li>
+            <li id="li3">Ļoti laba adaptācija</li>
+            <li id="li4">Intriģējošs sižets</li>
+          </ul>
+        </div>
+        <div class="col-xl-6 col-lg-6 col-sm-6">
+          <h2 id="siml">Līdzīgi seriāli</h2>
+          <ul>
+            <li>The librarians</li>
+            <li>Doctor who</li>
+            <li>Super natural</li>
+            <li>Gravity falls</li>
+          </ul>
+        </div>
+      </div>
+  </main>
+
+  <!-- footer -->
+  <footer class="row ievads">
+    <div class="col-xl-6 col-lg-6">
+      <h3>Herta Matisone 11.i </h3>
+    </div>
+    <div class="col-xl-4 col-lg-3"  style="color: #f6fcfe;">
+      <h3 id="cool">tu esi foršs</h3>
+    </div>
+    <div class="col-xl-2 col-lg-3 he">
+      <button type="button" onclick="topp()" class="hehe" id="up">Uz augšūuuu</button>
+    </div>
+  </footer>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+    </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
