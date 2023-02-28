@@ -122,3 +122,9 @@ body {
  }
 }
 
+@media only screen and (max-width: 800px) {
+  .lol{
+    visibility: hidden;
+    height: 0.1px;
+  }
+ }
