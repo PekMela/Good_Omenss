@@ -1,22 +1,22 @@
 function interesantifact() {
     const container = document.getElementById('azif');
 
-if (container.textContent.includes('Azirafals')) {
-  var myarray= new Array("Good Omens jau iepriekš tika pielāgots kā radio adaptācija","Terijs Giljams ilgu laiku strādāja pie filmas Good Omens adaptācijas.","Džonijs Deps un Robins Viljamss gandrīz filmējās filmā Good Omens.","Bija gandrīz filmas Good Omens versija, kas būtu ļoti atšķirīga no grāmatas.","Good Omens tika nominēta reliģiskās fantastikas balvai.","Viens intervētājs nesaprata, ka Good Omens ir daiļliteratūra.","Amerikāņu izdevums Good Omens sākotnēji bija garāks.","Pratchett un Geiman sadarbojās Good Omens, nosūtot disketes šurpu turpu viens otram.","Maikls Šīns ir milzīgs grāmatas Labās zīmes fans","Lielākā daļa dziesmu Good Omens ir Queen","Nīlam Geimenam ir epizode ceturtajā sērijā","Tās pilnais nosaukums ir: Labas zīmes: Agnesas Nuteres, raganas jaukie un precīzie pareģojumi.","Pirmo reizi publicēts 1990.","Autori Nīls Geimans un sers Terijs Pračets.","Kopējais aktieru skaits ir 37");
-    var random = myarray[Math.floor(Math.random() * myarray.length)];
-    alert(random)
-} if (container.textContent.includes('Aziraphale')){
-    var myarray= new Array("Good Omens has been adapted before as a radio  adaptation","Terry Gilliam was working on a movie adaptation of Good Omens for ages.","Johnny Depp and Robin Williams almost starred in the Good Omens movie.","There was almost a film version of Good Omens that would have been very different from the book.","Good Omens was nominated for a religious fiction award.","One interviewer didn't realize Good Omens was fiction.","The American edition of Good Omens was originally longer.","Pratchett and Gaiman collaborated on Good Omens by mailing floppy disks back and forth to one another.","Michael Sheen is a huge fan of the Good Omens book","Most songs in Good Omens are by Queen","Neil Gaiman has a cameo in episode four","Its full title is: Good Omens: The Nice and Accurate Prophecies of Agnes Nutter, Witch.","First published in 1990.","Written by Neil Gaiman and Sir Terry Pratchett.","The total number of actors is 37 (not including the 11 cameos)");
-    var random = myarray[Math.floor(Math.random() * myarray.length)];
-    alert(random)
-} if (container.textContent.includes('Erziraphael')){
-    var myarray= new Array("item 2","koks");
-    var random = myarray[Math.floor(Math.random() * myarray.length)];
-    alert(random)
-}
+    if (container.textContent.includes('Azirafals')) {
+        var myarray = new Array("Good Omens jau iepriekš tika pielāgots kā radio adaptācija", "Terijs Giljams ilgu laiku strādāja pie filmas Good Omens adaptācijas.", "Džonijs Deps un Robins Viljamss gandrīz filmējās filmā Good Omens.", "Bija gandrīz filmas Good Omens versija, kas būtu ļoti atšķirīga no grāmatas.", "Good Omens tika nominēta reliģiskās fantastikas balvai.", "Viens intervētājs nesaprata, ka Good Omens ir daiļliteratūra.", "Amerikāņu izdevums Good Omens sākotnēji bija garāks.", "Pratchett un Geiman sadarbojās Good Omens, nosūtot disketes šurpu turpu viens otram.", "Maikls Šīns ir milzīgs grāmatas Labās zīmes fans", "Lielākā daļa dziesmu Good Omens ir Queen", "Nīlam Geimenam ir epizode ceturtajā sērijā", "Tās pilnais nosaukums ir: Labas zīmes: Agnesas Nuteres, raganas jaukie un precīzie pareģojumi.", "Pirmo reizi publicēts 1990.", "Autori Nīls Geimans un sers Terijs Pračets.", "Kopējais aktieru skaits ir 37");
+        var random = myarray[Math.floor(Math.random() * myarray.length)];
+        alert(random)
+    } if (container.textContent.includes('Aziraphale')) {
+        var myarray = new Array("Good Omens has been adapted before as a radio  adaptation", "Terry Gilliam was working on a movie adaptation of Good Omens for ages.", "Johnny Depp and Robin Williams almost starred in the Good Omens movie.", "There was almost a film version of Good Omens that would have been very different from the book.", "Good Omens was nominated for a religious fiction award.", "One interviewer didn't realize Good Omens was fiction.", "The American edition of Good Omens was originally longer.", "Pratchett and Gaiman collaborated on Good Omens by mailing floppy disks back and forth to one another.", "Michael Sheen is a huge fan of the Good Omens book", "Most songs in Good Omens are by Queen", "Neil Gaiman has a cameo in episode four", "Its full title is: Good Omens: The Nice and Accurate Prophecies of Agnes Nutter, Witch.", "First published in 1990.", "Written by Neil Gaiman and Sir Terry Pratchett.", "The total number of actors is 37 (not including the 11 cameos)");
+        var random = myarray[Math.floor(Math.random() * myarray.length)];
+        alert(random)
+    } if (container.textContent.includes('Erziraphael')) {
+        var myarray = new Array('„Good Omens“ wurde schon einmal als Radioadaption adaptiert', 'Terry Gilliam arbeitete ewig an einer Verfilmung von „Good Omens“.', 'Johnny Depp und Robin Williams spielten beinahe in dem Film „Good Omens“.', 'Es gab fast eine Filmversion von Good Omens, die sich sehr vom Buch unterschieden hätte.', 'Good Omens wurde für einen religiösen Romanpreis nominiert.', 'Ein Interviewer wusste nicht, dass Good Omens Fiktion war.', 'Die amerikanische Ausgabe von Good Omens war ursprünglich länger.', 'Pratchett und Gaiman arbeiteten bei Good Omens zusammen, indem sie sich Disketten hin und her schickten.', 'Michael Sheen ist ein großer Fan des Good Omens-Buches', 'Die meisten Songs in Good Omens sind von Queen', 'Neil Gaiman hat einen Cameo-Auftritt in Folge vier', 'Der vollständige Titel lautet: Good Omens: The Nice and Accurate Prophecies of Agnes Nutter, Witch“.', 'Erstmals veröffentlicht 1990.', 'Geschrieben von Neil Gaiman und Sir Terry Pratchett.', 'Die Gesamtzahl der Schauspieler beträgt 37 (ohne die 11 Cameos)');
+        var random = myarray[Math.floor(Math.random() * myarray.length)];
+        alert(random)
+    }
 }
 
-function flag1(){
+function flag1() {
     document.getElementById("ievads").innerHTML = "Introduction";
     document.getElementById("subievads").innerHTML = "A brief description of the series";
     document.getElementById("ievadstext").innerHTML = 'Based on the book, this fantasy series sees the edgy angel Aziraphale and the free-spirited demon Crowley team up to form an unlikely duo. Both are too fond of life on Earth and are forced to work together to stop the impending "Armageddon".';
@@ -82,9 +82,9 @@ function flag1(){
     document.getElementById('goo4').innerHTML = "Main characters";
     document.getElementById('goo5').innerHTML = "Rest of the characters";
     document.getElementById('goo6').innerHTML = "More";
-}  
+}
 
-function flag3(){
+function flag3() {
     document.getElementById("ievads").innerHTML = "Ievads";
     document.getElementById("subievads").innerHTML = "Īss seriāla apraksts";
     document.getElementById("ievadstext").innerHTML = 'Šajā fantāzijas sērijālā, kas ir balstīta uz grāmatu, tiek parādīts kā nervozais eņģelis Azirafals un brīvs dēmons Kroulijs sadarbojas, lai izveidotu maz ticamu duetu. Abi ir pārāk iecienījuši dzīvi uz Zemes, un viņi ir spiesti sadarboties, cenšoties apturēt tuvojošos "Armagedonu".';
@@ -150,37 +150,335 @@ function flag3(){
     document.getElementById('goo4').innerHTML = "Galvenie varoņi";
     document.getElementById('goo5').innerHTML = "Pārējie varoņi";
     document.getElementById('goo6').innerHTML = "Vel";
-}  
-
-function topp(){
-    document.querySelector('#saturs').scrollIntoView();
 }
 
-function go1(){
+function flag2() {
+    document.getElementById("ievads").innerHTML = "Einführung";
+    document.getElementById("subievads").innerHTML = "Eine kurze Beschreibung der Serie";
+    document.getElementById("ievadstext").innerHTML = '  Basierend auf dem Buch verbünden sich in dieser Fantasy-Serie der ausgefallene Engel Erziraphael und der freigeistige Dämon Schlendern zu einem ungleichen Duo. Beide lieben das Leben auf der Erde und sind gezwungen, zusammenzuarbeiten, um das bevorstehende "Armageddon" zu stoppen.';
+    document.getElementById('nosua').innerHTML = "Name";
+    document.getElementById('time').innerHTML = "Zeit";
+    document.getElementById('imdb').innerHTML = "IMDB-Rating";
+    document.getElementById('desc').innerHTML = "Kurze Beschreibung";
+    document.getElementById('desc1').innerHTML = "Am Anfang und vor elf Jahren entscheiden zwei unsterbliche Wesen, dass es vielleicht nicht an der Zeit ist, eine Apokalypse zu beginnen.";
+    document.getElementById('desc2').innerHTML = "Nachdem Erziraphael und Schlendern jahrelang dem falschen Jungen gefolgt sind, müssen sie nun versuchen, den Verbleib des echten Antichristen ausfindig zu machen.";
+    document.getElementById('desc3').innerHTML = "Agnes Nutters Nachkomme Anathema kommt in Tadfield auf ihrer eigenen Mission an, die Welt zu retten.";
+    document.getElementById('desc4').innerHTML = "Harmagedon beginnt ernsthaft, als die Mächte des Antichristen auf der ganzen Welt Verwüstung anrichten.";
+    document.getElementById('desc5').innerHTML = "Erziraphael und Schlendern rennen zum Luftwaffenstützpunkt Tadfield, während sie versuchen, Adam und die Vier Reiter daran zu hindern, die Apokalypse zu beginnen.";
+    document.getElementById('desc6').innerHTML = "Können Adam, Schlendern und Erziraphael zusammenarbeiten, um die Mächte des Himmels und der Hölle zu bekämpfen und die Apokalypse zu verhindern?";
+    document.getElementById('qoute1').innerHTML = 'Erziraphael-Zitat';
+    document.getElementById('qoute12').innerHTML = '"Er sollte es Crowley sagen. Nein, hat er nicht. Er wollte es Crowley sagen. Er sollte es dem Himmel sagen."';
+    document.getElementById('qoute2').innerHTML = 'Schlendern-Zitat';
+    document.getElementById('qoute22').innerHTML = '"Ein Dämon kann in echte Schwierigkeiten geraten, wenn er das Richtige tut. Komisch, wenn wir beide falsch liegen, oder? Komisch, wenn ich das Gute getan habe und du das Schlechte, oder?"';
+    document.getElementById('qoute3').innerHTML = 'Todes-Zitat';
+    document.getElementById('qoute32').innerHTML = '"Betrachten Sie es nicht als Sterben. Denken Sie einfach daran, dass Sie früh aufbrechen, um der Hektik zu entgehen."';
+    document.getElementById('qoute4').innerHTML = 'Schlendern-Zitat';
+    document.getElementById('qoute42').innerHTML = '"Was stecken sie heutzutage in Bananen?"';
+    document.getElementById('qoute5').innerHTML = 'Adam Young-Zitat';
+    document.getElementById('qoute52').innerHTML = '"Ich verstehe nicht, was so unbedeutend daran ist, Menschen als Menschen zu erschaffen und sich dann aufzuregen, weil sie sich wie Menschen verhalten."';
+    document.getElementById('qoute6').innerHTML = 'Erziraphael-Zitat';
+    document.getElementById('qoute62').innerHTML = '"Du kannst mich nicht töten. Es wird Papierkram geben."';
+    document.getElementById('qoute7').innerHTML = 'Erzähler-Zitat';
+    document.getElementById('qoute72').innerHTML = 'Viele Leute, die Aziraphale zum ersten Mal begegneten, hatten drei Eindrücke: dass er Engländer war, dass er intelligent war und dass er fröhlicher war als ein Baum voller Affen auf Lachgas.';
+    document.getElementById('int').innerHTML = "Interessante Fakten!";
+    document.getElementById("azif").innerHTML = "Erziraphael";
+    document.getElementById("azift").innerHTML = "Erziraphael ist eine der Hauptfiguren in der Amazon-Serie Good Omens. Er ist ein Engel, der auch als Händler für seltene Bücher fungiert und sich in menschliches Essen verliebt hat.";
+    document.getElementById("cro").innerHTML = "Schlendern";
+    document.getElementById("crot").innerHTML = "Schlendern  ist eine der Hauptfiguren in der Amazon-Serie Good Omens. Er ist ein Dämon, der nicht so sehr vom Himmel gefallen ist, als vage nach unten zu schlendern.";
+    document.getElementById("per1").innerHTML = "Adam Young";
+    document.getElementById("per2").innerHTML = "Anathema-Gerät";
+    document.getElementById("per3").innerHTML = "Umweltverschmutzung";
+    document.getElementById("per4").innerHTML = "Tod";
+    document.getElementById("per5").innerHTML = "Hungersnot";
+    document.getElementById("per6").innerHTML = "Witchfinder Pulsifer";
+    document.getElementById("per7").innerHTML = "Newton Pulsifer";
+    document.getElementById("per8").innerHTML = "Agnes Nutter";
+    document.getElementById("per9").innerHTML = "Pfeffer";
+    document.getElementById("per10").innerHTML = "Brian";
+    document.getElementById("per11").innerHTML = "Wensleydale";
+    document.getElementById("per12").innerHTML = "Hund";
+    document.getElementById("per13").innerHTML = "Gabriel";
+    document.getElementById("per14").innerHTML = "Beelzebub";
+    document.getElementById("per15").innerHTML = "Krieg";
+    document.getElementById("per16").innerHTML = "Satan";
+    document.getElementById("per17").innerHTML = "Arthur Young";
+    document.getElementById("per18").innerHTML = "Frau Tracy";
+    document.getElementById("li1").innerHTML = "Sternbesetzung";
+    document.getElementById("li2").innerHTML = "Es ist eine Miniserie";
+    document.getElementById("li3").innerHTML = "Eine Stellar-Anpassung";
+    document.getElementById("li4").innerHTML = "Interessante Handlung";
+    document.getElementById("why").innerHTML = "Was sollten Sie sich ansehen?";
+    document.getElementById("siml").innerHTML = "Ähnliche Fernsehsendungen";
+    document.getElementById("up").innerHTML = "Nach oben";
+    document.getElementById("cool").innerHTML = "du bist cool";
+    document.getElementById('saturs').innerHTML = "Inhalt";
+    document.getElementById('goo1').innerHTML = "Einführung";
+    document.getElementById('goo2').innerHTML = "Episoden";
+    document.getElementById('goo3').innerHTML = "Zitate";
+    document.getElementById('goo4').innerHTML = "Hauptfiguren";
+    document.getElementById('goo5').innerHTML = "Rest der Zeichen";
+    document.getElementById('goo6').innerHTML = "Mehr";
+}
+
+function topp() {
+    document.querySelector('#sine').scrollIntoView();
+}
+
+function go1() {
     document.querySelector('#ievads').scrollIntoView();
 }
 
-function go2(){
+function go2() {
     document.querySelector('#tabula').scrollIntoView();
 }
 
-function go3(){
+function go3() {
     document.querySelector('#qoute1').scrollIntoView();
 }
 
-function go4(){
+function go4() {
     document.querySelector('#azif').scrollIntoView();
 }
 
-function go5(){
+function go5() {
     document.querySelector('#per1').scrollIntoView();
 }
 
-function go6(){
+function go6() {
     document.querySelector('#why').scrollIntoView();
 }
 
 function myFunction() {
     var element = document.body;
     element.classList.toggle("dark");
-    }
+    var iva = document.getElementById("int");
+    iva.classList.toggle("kark");
+    var ivaa = document.getElementById("up");
+    ivaa.classList.toggle("kark");
+    var ivva = document.getElementById("flag");
+    ivva.classList.toggle("dark");
+    var ivvaa = document.getElementById("flag2");
+    ivvaa.classList.toggle("dark");
+    var iioon = document.getElementById("flag3");
+    iioon.classList.toggle("dark");
+    var iion = document.getElementById("sine");
+    iion.classList.toggle("dark");
+    var iionlp = document.getElementById("saturs");
+    iionlp.classList.toggle("dark");
+    var iionl = document.getElementById("goo1");
+    iionl.classList.toggle("dark");
+    var ionu = document.getElementById("goo2");
+    ionu.classList.toggle("dark");
+    var ionui = document.getElementById("goo3");
+    ionui.classList.toggle("dark");
+    var weroq = document.getElementById("goo4");
+    weroq.classList.toggle("dark");
+    var wero = document.getElementById("goo5");
+    wero.classList.toggle("dark");
+    var weron = document.getElementById("goo6");
+    weron.classList.toggle("dark");
+    var weronvv = document.getElementById("baki");
+    weronvv.classList.toggle("dark");
+    var uwu = document.getElementById("ieva");
+    uwu.classList.toggle("dark");
+    var uuwuu = document.getElementById("ieva");
+    uuwuu.classList.toggle("lewo");
+    var ilop = document.getElementById("kelo");
+    ilop.classList.toggle("dark");
+    var ilopp = document.getElementById("hash");
+    ilopp.classList.toggle("dark");
+    var illop = document.getElementById("nosua");
+    illop.classList.toggle("dark");
+    var wero = document.getElementById("time");
+    wero.classList.toggle("dark");
+    var weroo = document.getElementById("imdb");
+    weroo.classList.toggle("dark");
+    var werro = document.getElementById("desc");
+    werro.classList.toggle("dark");
+    var werroo = document.getElementById("desc1");
+    werroo.classList.toggle("dark");
+    var werrooo = document.getElementById("desc2");
+    werrooo.classList.toggle("dark");
+    var wuloi = document.getElementById("desc3");
+    wuloi.classList.toggle("dark");
+    var wuloii = document.getElementById("desc4");
+    wuloii.classList.toggle("dark");
+    var wulot = document.getElementById("desc5");
+    wulot.classList.toggle("dark");
+    var wulowq = document.getElementById("desc6");
+    wulowq.classList.toggle("dark");
+    var wulow = document.getElementById("dabii1");
+    wulow.classList.toggle("dark");
+    var wulosw = document.getElementById("dabii12");
+    wulosw.classList.toggle("dark");
+    var wuloswe = document.getElementById("dabii13");
+    wuloswe.classList.toggle("dark");
+    var wuloswele = document.getElementById("dabii14");
+    wuloswele.classList.toggle("dark");
+    var wuloswel = document.getElementById("dabii2");
+    wuloswel.classList.toggle("dark");
+    var wepo = document.getElementById("dabii21");
+    wepo.classList.toggle("dark");
+    var wepo1 = document.getElementById("dabii22");
+    wepo1.classList.toggle("dark");
+    var wepo12 = document.getElementById("dabii23");
+    wepo12.classList.toggle("dark");
+    var wepo3 = document.getElementById("dabii3");
+    wepo3.classList.toggle("dark");
+    var wepo4 = document.getElementById("dabii31");
+    wepo4.classList.toggle("dark");
+    var wepo5 = document.getElementById("dabii32");
+    wepo5.classList.toggle("dark");
+    var wepo6 = document.getElementById("dabii33");
+    wepo6.classList.toggle("dark");
+    var wepo7 = document.getElementById("dabii4");
+    wepo7.classList.toggle("dark");
+    var wepo8 = document.getElementById("dabii41");
+    wepo8.classList.toggle("dark");
+    var wepo9 = document.getElementById("dabii42");
+    wepo9.classList.toggle("dark");
+    var wepo11 = document.getElementById("dabii43");
+    wepo11.classList.toggle("dark");
+    var wepo13 = document.getElementById("dabii5");
+    wepo13.classList.toggle("dark");
+    var wepo14 = document.getElementById("dabii51");
+    wepo14.classList.toggle("dark");
+    var wepo15 = document.getElementById("dabii52");
+    wepo15.classList.toggle("dark");
+    var wepo16 = document.getElementById("dabii53");
+    wepo16.classList.toggle("dark");
+    var wepo17 = document.getElementById("dabii6");
+    wepo17.classList.toggle("dark");
+    var wepo18 = document.getElementById("dabii61");
+    wepo18.classList.toggle("dark");
+    var wepo19 = document.getElementById("dabii62");
+    wepo19.classList.toggle("dark");
+    var wepo20 = document.getElementById("dabii63");
+    wepo20.classList.toggle("dark");
+    var azif = document.getElementById("azif");
+    azif.classList.toggle("dark");
+    var azift = document.getElementById("azift");
+    azift.classList.toggle("dark");
+    var cro = document.getElementById("cro");
+    cro.classList.toggle("dark");
+    var crot = document.getElementById("crot");
+    crot.classList.toggle("dark");
+    var croe = document.getElementById("crolyer");
+    croe.classList.toggle("lewo");
+    var crotw = document.getElementById("azifer");
+    crotw.classList.toggle("lewo");
+    var croa = document.getElementById("crower");
+    croa.classList.toggle("dark");
+    var crota = document.getElementById("aziferw");
+    crota.classList.toggle("dark");
+    var you = document.getElementById("you");
+    you.classList.toggle("you");
+    var per1 = document.getElementById("per1");
+    per1.classList.toggle("dark");
+    var per2 = document.getElementById("per2");
+    per2.classList.toggle("dark");
+    var per3 = document.getElementById("per3");
+    per3.classList.toggle("dark");
+    var per4 = document.getElementById("per4");
+    per4.classList.toggle("dark");
+    var per5 = document.getElementById("per5");
+    per5.classList.toggle("dark");
+    var per6 = document.getElementById("per6");
+    per6.classList.toggle("dark");
+    var per7 = document.getElementById("per7");
+    per7.classList.toggle("dark");
+    var per8 = document.getElementById("per8");
+    per8.classList.toggle("dark");
+    var per9 = document.getElementById("per9");
+    per9.classList.toggle("dark");
+    var per10 = document.getElementById("per10");
+    per10.classList.toggle("dark");
+    var per11 = document.getElementById("per11");
+    per11.classList.toggle("dark");
+    var per12 = document.getElementById("per12");
+    per12.classList.toggle("dark");
+    var per13 = document.getElementById("per13");
+    per13.classList.toggle("dark");
+    var per14 = document.getElementById("per14");
+    per14.classList.toggle("dark");
+    var per15 = document.getElementById("per15");
+    per15.classList.toggle("dark");
+    var per16 = document.getElementById("per16");
+    per16.classList.toggle("dark");
+    var per17 = document.getElementById("per17");
+    per17.classList.toggle("dark");
+    var per18 = document.getElementById("per18");
+    per18.classList.toggle("dark");
+    var carr1 = document.getElementById("carr1");
+    carr1.classList.toggle("dark");
+    var carr1 = document.getElementById("carr1");
+    carr1.classList.toggle("lewo");
+    var carr2 = document.getElementById("carr2");
+    carr2.classList.toggle("dark");
+    var carr2 = document.getElementById("carr2");
+    carr2.classList.toggle("lewo");
+    var carr3 = document.getElementById("carr3");
+    carr3.classList.toggle("dark");
+    var carr3 = document.getElementById("carr3");
+    carr3.classList.toggle("lewo");
+    var carr4 = document.getElementById("carr4");
+    carr4.classList.toggle("dark");
+    var carr4 = document.getElementById("carr4");
+    carr4.classList.toggle("lewo");
+    var carr5 = document.getElementById("carr5");
+    carr5.classList.toggle("dark");
+    var carr5 = document.getElementById("carr5");
+    carr5.classList.toggle("lewo");
+    var carr6 = document.getElementById("carr6");
+    carr6.classList.toggle("dark");
+    var carr6 = document.getElementById("carr6");
+    carr6.classList.toggle("lewo");
+    var carr7 = document.getElementById("carr7");
+    carr7.classList.toggle("dark");
+    var carr7 = document.getElementById("carr7");
+    carr7.classList.toggle("lewo");
+    var carr8 = document.getElementById("carr8");
+    carr8.classList.toggle("dark");
+    var carr8 = document.getElementById("carr8");
+    carr8.classList.toggle("lewo");
+    var carr9 = document.getElementById("carr9");
+    carr9.classList.toggle("dark");
+    var carr9 = document.getElementById("carr9");
+    carr9.classList.toggle("lewo");
+    var carr10 = document.getElementById("carr10");
+    carr10.classList.toggle("dark");
+    var carr10 = document.getElementById("carr10");
+    carr10.classList.toggle("lewo");
+    var carr11 = document.getElementById("carr11");
+    carr11.classList.toggle("dark");
+    var carr11 = document.getElementById("carr11");
+    carr11.classList.toggle("lewo");
+    var carr12 = document.getElementById("carr12");
+    carr12.classList.toggle("dark");
+    var carr12 = document.getElementById("carr12");
+    carr12.classList.toggle("lewo");
+    var carr13 = document.getElementById("carr13");
+    carr13.classList.toggle("dark");
+    var carr13 = document.getElementById("carr13");
+    carr13.classList.toggle("lewo");
+    var carr14 = document.getElementById("carr14");
+    carr14.classList.toggle("dark");
+    var carr14 = document.getElementById("carr14");
+    carr14.classList.toggle("lewo");
+    var carr15 = document.getElementById("carr15");
+    carr15.classList.toggle("dark");
+    var carr15 = document.getElementById("carr15");
+    carr15.classList.toggle("lewo");
+    var carr16 = document.getElementById("carr16");
+    carr16.classList.toggle("dark");
+    var carr16 = document.getElementById("carr16");
+    carr16.classList.toggle("lewo");
+    var carr17 = document.getElementById("carr17");
+    carr17.classList.toggle("dark");
+    var carr17 = document.getElementById("carr17");
+    carr17.classList.toggle("lewo");
+    var carr18 = document.getElementById("carr18");
+    carr18.classList.toggle("dark");
+    var carr18 = document.getElementById("carr18");
+    carr18.classList.toggle("lewo");
+}   

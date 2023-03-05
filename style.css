@@ -15,6 +15,10 @@
   text-align: center;
 }
 
+.lelo{
+  width: 13rem;
+}
+
 .hehe{
   background-color: #040124;
   color: #fefefe;
@@ -30,6 +34,11 @@
 body {
   background-color: #f6fcfe;
   color: #00191e;
+}
+
+.fraer{
+  display: flex;
+  justify-content: center;
 }
 
 .cards-wrapper {
@@ -56,7 +65,7 @@ body {
 
 .carousel-control-prev,
 .carousel-control-next {
-  background-color: #461919;
+  background-color: #277743;
   width: 5vh;
   height: 5vh;
   border-radius: 50%;
@@ -90,7 +99,7 @@ body {
 
 .flagi{
   width: 40px;
-  margin-top: 3%;
+  margin-top: 2%;
 }
 
 .flag{
@@ -103,6 +112,10 @@ body {
   justify-content: center;
 }
 
+.fero{
+  width: 60px;
+}
+
 .ve{
   display: flex;
   align-items: center;
@@ -112,6 +125,24 @@ body {
   max-width: 60%;
   max-height: fit-content;
   border-radius: 10%;
+}
+
+.dark{
+  background-color: #000405;
+  color: #fefefe;
+}
+
+.you{
+  background-color: #001c23;
+}
+
+.kark{
+  background-color: #fefefe;
+  color: #000405;
+}
+
+.lewo{
+  box-shadow: 2px 4px 6px 0 #002630;
 }
 
 @media only screen and (max-width: 1200px) {

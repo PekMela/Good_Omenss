@@ -1,8 +1,5 @@
 <!doctype html>
-<html lang="en">
-
-<!doctype html>
-<html lang="en">
+<html lang="lv">
 
 <head>
   <title>Good Omens</title>
@@ -24,31 +21,38 @@
     <div>
       <nav class="navbar navbar-expand-lg bg-body-tertiary ">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Good Omens</a>
+          <a class="navbar-brand" id="sine">Good Omens</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
-              <li class="nav-item flagi">
-                <button type="button" class="flag" onclick="flag3()"><img src="flag3.png" alt=""></button>
+              <li class="nav-item car">
+                <button type="button" id="kelo" class="flag fero" onclick="myFunction()"><img src="ko12.png" alt=""></button>
               </li>
               <li class="nav-item flagi">
-                <button type="button" class="flag" onclick="flag1()"><img src="flag.png" alt=""></button>
+                <button type="button" class="flag" id="flag3" onclick="flag3()"><img src="flag3.png" alt=""></button>
+              </li>
+              <li class="nav-item flagi">
+                <button type="button" class="flag" id="flag" onclick="flag1()"><img src="flag.png" alt=""></button>
+              </li>
+              <li class="nav-item flagi">
+                <button type="button" class="flag" id="flag2" onclick="flag2()"><img src="flag2.png" alt=""></button>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                  aria-expanded="false" id="saturs">
+                <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false"
+                  id="saturs">
                   Saturs
                 </a>
-                <ul class="dropdown-menu">
+                <ul class="dropdown-menu" id="baki">
                   <li><button type="button" id="goo1" class="dropdown-item" onclick="go1()">Ievads</button></li>
                   <li><button type="button" id="goo2" class="dropdown-item" onclick="go2()">Sērijas</button></li>
                   <li><button type="button" id="goo3" class="dropdown-item" onclick="go3()">Atsauces</button></li>
                   <li><button type="button" id="goo4" class="dropdown-item" onclick="go4()">Galvenie varoņi</button>
                   </li>
-                  <li><button type="button" id="goo5" class="dropdown-item lol" onclick="go5()">Pārējie varoņi</button></li>
+                  <li><button type="button" id="goo5" class="dropdown-item lol" onclick="go5()">Pārējie varoņi</button>
+                  </li>
                   <li><button type="button" id="goo6" class="dropdown-item" onclick="go6()">Vel</button></li>
                 </ul>
               </li>
@@ -59,17 +63,18 @@
     </div>
   </header>
   <main>
+
     <!-- lielais sākuma attēls -->
     <div>
       <img src="uwu.jpg" class="img-fluid" alt="good omens">
     </div>
     <div class="row ievads">
-      <div class="col-xl-6 col-lg-12 car">
+      <div class="col-xl-6 col-lg-12 car" >
         <img src="mainimg.jpg" alt="">
       </div>
       <!-- ievads -->
       <div class="col-xl-6 col-lg-12 ho">
-        <div class="card" style="width: 30rem;">
+        <div class="card" style="width: 30rem;" id="ieva">
           <div class="card-body">
             <h5 class="card-title" id="ievads">Ievads</h5>
             <h6 class="card-subtitle mb-2 text-muted" id="subievads">Īss seriāla apraksts</h6>
@@ -83,10 +88,10 @@
       </div>
       <!-- tabula -->
       <div class="ievads">
-        <table class="table" id="tabula">
+        <table class="table " id="tabula">
           <thead>
             <tr>
-              <th scope="col">#</th>
+              <th scope="col" id="hash">#</th>
               <th scope="col" id="nosua">Nosaukums</th>
               <th scope="col" id="time">Ilgums</th>
               <th scope="col" id="imdb">IMDB vērtējums</th>
@@ -95,55 +100,55 @@
           </thead>
           <tbody>
             <tr>
-              <th scope="row">1</th>
-              <td>In The Beginning</td>
-              <td>51 min</td>
-              <td>8/10⭐</td>
+              <th scope="row" id="dabii1">1</th>
+              <td id="dabii12">In The Beginning</td>
+              <td id="dabii13">51 min</td>
+              <td id="dabii14">8/10⭐</td>
               <td id="desc1">Sākumā un pirms vienpadsmit gadiem divas nemirstīgas būtnes nolemj,
-                ka varbūt nav <br> laika sākt Apokalipses gaitas.</td>
+                ka varbūt nav   laika sākt Apokalipses gaitas.</td>
             </tr>
             <tr>
-              <th scope="row">2</th>
-              <td>The Book</td>
-              <td>51 min</td>
-              <td>8/10⭐</td>
+              <th scope="row" id="dabii2">2</th>
+              <td id="dabii21">The Book</td>
+              <td id="dabii22">51 min</td>
+              <td id="dabii23">8/10⭐</td>
               <td id="desc2">Gadiem ilgi sekojis nepareizajam zēnam, Azirafalam un Kroulijam
-                tagad jāmēģina atrast īstās<br> Antikrista atrašanās vietu.</td>
+                tagad jāmēģina atrast īstās  Antikrista atrašanās vietu.</td>
             </tr>
             <tr>
-              <th scope="row">3</th>
-              <td>Hard Time</td>
-              <td>51 min</td>
-              <td>8.4/10⭐</td>
+              <th scope="row" id="dabii3">3</th>
+              <td id="dabii31">Hard Time</td>
+              <td id="dabii32">51 min</td>
+              <td id="dabii33">8.4/10⭐</td>
               <td id="desc3"> Agneses Nateres pēctece Anatēma ierodas Tadfieldā uz savu
                 misiju, lai glābtu pasauli.</td>
             <tr>
-              <th scope="row">4</th>
-              <td>Saturday Morning Funtime</td>
-              <td>51 min</td>
-              <td>8.1/10⭐</td>
+              <th scope="row" id="dabii4">4</th>
+              <td id="dabii41">Saturday Morning Funtime</td>
+              <td id="dabii42">51 min</td>
+              <td id="dabii43">8.1/10⭐</td>
               <td id="desc4">“Armagedons” sākas, kad antikrista spējas rada nekārtību
                 visā pasaulē. </td>
             <tr>
-              <th scope="row">5</th>
-              <td>The Doomsday Option</td>
-              <td>51 min</td>
-              <td>8.2/10⭐</td>
+              <th scope="row" id="dabii5">5</th>
+              <td id="dabii51">The Doomsday Option</td>
+              <td id="dabii52">51 min</td>
+              <td id="dabii53">8.2/10⭐</td>
               <td id="desc5">Azirafals un Kroulijs joņo uz Tadfield gaisa spēku bāzi,
-                mēģinādami novērst to,<br> ka Ādams un četri jātnieki sāk apokalipsi.</td>
+                mēģinādami novērst to,  ka Ādams un četri jātnieki sāk apokalipsi.</td>
             <tr>
-              <th scope="row">6</th>
-              <td>The Very Last Day of the <br> Rest of Their Lives</td>
-              <td>51 min</td>
-              <td>8.4/10⭐</td>
+              <th scope="row" id="dabii6">6</th>
+              <td id="dabii61">The Very Last Day of the   Rest of Their Lives</td>
+              <td id="dabii62">51 min</td>
+              <td id="dabii63">8.4/10⭐</td>
               <td id="desc6">Vai Ādams, Kroulijs un Azirafals var sadarboties, lai cīnītos
-                pret Debesu un Elles varenību un<br> novērstu apokalipsi?</td>
+                pret Debesu un Elles varenību un  novērstu apokalipsi?</td>
             </tr>
           </tbody>
         </table>
       </div>
       <!-- akordions ar atsaucēm-->
-      <div class="row ievads">
+      <div class="row ievads fraer">
         <div class="col-xl-5 col-lg-5">
           <div class="accordion" id="accordionExample">
             <div class="accordion-item">
@@ -255,7 +260,7 @@
           </div>
         </div>
         <!-- img slide -->
-        <div class="col-xl-6 col-lg-6 imgslid col-sm-12 col-12">
+        <div class="col-xl-6 col-lg-6 imgslid col-sm-8 col-12 col-xxl-4 ">
           <div>
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-inner">
@@ -293,14 +298,14 @@
         </div>
       </div>
       <!-- galvenie varoņi -->
-      <div class="row cardc">
-        <div class="col-xl-6 col-lg-6 col-sm-12">
-          <div class="card mb-3" style="max-width: 540px;">
+      <div class="row cardc fraer">
+        <div class="col-xl-5 col-lg-11 col-sm-11 fraer">
+          <div class="card mb-2" style="max-width: 600px;" id="azifer">
             <div class="row g-0">
               <div class="col-md-4 col-sm-4 col-4">
                 <img src="aziraphel.jpg" class="img-fluid rounded-start" alt="...">
               </div>
-              <div class="col-md-8 col-sm-8 col-8">
+              <div class="col-md-8 col-sm-8 col-8" id="aziferw">
                 <div class="card-body">
                   <h5 class="card-title" id="azif">Azirafals</h5>
                   <p class="card-text" id="azift">Azirafals ir viens no galvenajiem varoņiem Amazon
@@ -312,13 +317,13 @@
             </div>
           </div>
         </div>
-        <div class="col-xl-6 col-lg-6 col-sm-12">
-          <div class="card mb-3" style="max-width: 540px;">
+        <div class="col-xl-5 col-lg-11 col-sm-11 fraer" >
+          <div class="card mb-2" style="max-width: 600px;" id="crolyer">
             <div class="row g-0">
               <div class="col-md-4 col-sm-4 col-4">
                 <img src="croly.jfif" class="img-fluid rounded-start" alt="...">
               </div>
-              <div class="col-md-8 col-sm-8 col-8">
+              <div class="col-md-8 col-sm-8 col-8" id="crower">
                 <div class="card-body">
                   <h5 class="card-title" id="cro">Kroulijs</h5>
                   <p class="card-text" id="crot">Kroulijs ir viens no galvenajiem varoņiem Amazon
@@ -331,51 +336,44 @@
           </div>
         </div>
       </div>
+      <!--  -->
       <!-- varoņu slaids -->
       <div>
         <div id="carouselExampleIndicators" class="carousel slide">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-              aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-              aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-              aria-label="Slide 3"></button>
-          </div>
           <div class="carousel-inner lol">
             <div class="carousel-item active">
               <div class="cards-wrapper">
-                <div class="card" style="width: 11rem;">
+                <div class="card lelo" id="carr1">
                   <img src="adam.png" class="card-img-top" alt="...">
                   <div class="card-body">
                     <p class="card-text" id="per1">Ādams Jangs</p>
                   </div>
                 </div>
-                <div class="card" style="width: 11rem;">
+                <div class="card lelo" id="carr2">
                   <img src="anathema.png" class="card-img-top" alt="...">
                   <div class="card-body">
                     <p class="card-text" id="per2">Anatēma Divaisa</p>
                   </div>
                 </div>
-                <div class="card" style="width: 11rem;">
+                <div class="card lelo" id="carr3">
                   <img src="ko13.png" class="card-img-top" alt="...">
                   <div class="card-body">
                     <p class="card-text" id="per3">Piesārņojums</p>
                   </div>
                 </div>
-                <div class="card" style="width: 11rem;">
+                <div class="card lelo" id="carr4">
                   <img src="death.png" class="card-img-top" alt="...">
                   <div class="card-body">
                     <p class="card-text" id="per4">Nāve</p>
                   </div>
                 </div>
-                <div class="card" style="width: 11rem;">
+                <div class="card lelo" id="carr5">
                   <img src="famine.png" class="card-img-top" alt="...">
                   <div class="card-body">
                     <p class="card-text" id="per5">Bads</p>
                   </div>
                 </div>
-                <div class="card" style="width: 11rem;">
+                <div class="card lelo" id="carr6">
                   <img src="sergant.png" class="card-img-top" alt="...">
                   <div class="card-body">
                     <p class="card-text" id="per6">Sers Pulsifers</p>
@@ -385,37 +383,37 @@
             </div>
             <div class="carousel-item lol">
               <div class="cards-wrapper">
-                <div class="card" style="width: 11rem;">
+                <div class="card lelo" id="carr7">
                   <img src="newt.jfif" class="card-img-top" alt="...">
                   <div class="card-body">
                     <p class="card-text" id="per7">Ņūtons Pulsifers</p>
                   </div>
                 </div>
-                <div class="card" style="width: 11rem;">
+                <div class="card lelo" id="carr8">
                   <img src="agnese.png" class="card-img-top" alt="...">
                   <div class="card-body">
                     <p class="card-text" id="per8">Agnese Natere</p>
                   </div>
                 </div>
-                <div class="card" style="width: 11rem;">
+                <div class="card lelo" id="carr9">
                   <img src="frend1.png" class="card-img-top" alt="...">
                   <div class="card-body">
                     <p class="card-text" id="per9">Pipars</p>
                   </div>
                 </div>
-                <div class="card" style="width: 11rem;">
+                <div class="card lelo" id="carr10">
                   <img src="brian.png" class="card-img-top" alt="...">
                   <div class="card-body">
                     <p class="card-text" id="per10">Braiens</p>
                   </div>
                 </div>
-                <div class="card" style="width: 11rem;">
+                <div class="card lelo" id="carr11">
                   <img src="wesly.png" class="card-img-top" alt="...">
                   <div class="card-body">
                     <p class="card-text" id="per11">Venslideils</p>
                   </div>
                 </div>
-                <div class="card" style="width: 11rem;">
+                <div class="card lelo" id="carr12">
                   <img src="dog.jfif" class="card-img-top" alt="...">
                   <div class="card-body">
                     <p class="card-text" id="per12">Suns</p>
@@ -425,37 +423,37 @@
             </div>
             <div class="carousel-item lol">
               <div class="cards-wrapper">
-                <div class="card" style="width: 11rem;">
+                <div class="card lelo" id="carr13">
                   <img src="gabriel.png" class="card-img-top" alt="...">
                   <div class="card-body">
                     <p class="card-text" id="per13">Gabriels</p>
                   </div>
                 </div>
-                <div class="card" style="width: 11rem;">
+                <div class="card lelo" id="carr14">
                   <img src="belce.png" class="card-img-top" alt="...">
                   <div class="card-body">
                     <p class="card-text" id="per14">Belcebuls</p>
                   </div>
                 </div>
-                <div class="card" style="width: 11rem;">
+                <div class="card lelo" id="carr15">
                   <img src="war.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
                     <p class="card-text" id="per15">Karš</p>
                   </div>
                 </div>
-                <div class="card" style="width: 11rem;">
+                <div class="card lelo" id="carr16">
                   <img src="satan.webp" class="card-img-top" alt="...">
                   <div class="card-body">
                     <p class="card-text" id="per16">Sātans</p>
                   </div>
                 </div>
-                <div class="card" style="width: 11rem;">
+                <div class="card lelo" id="carr17">
                   <img src="young.webp" class="card-img-top" alt="...">
                   <div class="card-body">
                     <p class="card-text" id="per17">Artūrs Jungs</p>
                   </div>
                 </div>
-                <div class="card" style="width: 11rem;">
+                <div class="card lelo" id="carr18">
                   <img src="tracy.jfif" class="card-img-top" alt="...">
                   <div class="card-body">
                     <p class="card-text" id="per18">Misis Treisija</p>
@@ -471,7 +469,7 @@
           </button>
           <button class="carousel-control-next lol" type="button" data-bs-target="#carouselExampleIndicators"
             data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="carousel-control-next-icon " aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
         </div>
@@ -500,14 +498,14 @@
   </main>
 
   <!-- footer -->
-  <footer class="row ievads">
-    <div class="col-xl-6 col-lg-6">
+  <footer class="row ievads" id="you">
+    <div class="col-xl-6 col-lg-3 col-md-4 col-sm-4">
       <h3>Herta Matisone 11.i </h3>
     </div>
-    <div class="col-xl-4 col-lg-3"  style="color: #f6fcfe;">
+    <div class="col-xl-4 col-lg-3 col-md-4 col-sm-4" style="color: #f6fcfe;">
       <h3 id="cool">tu esi foršs</h3>
     </div>
-    <div class="col-xl-2 col-lg-3 he">
+    <div class="col-xl-2 col-lg-3 he col-md-4 col-sm-4">
       <button type="button" onclick="topp()" class="hehe" id="up">Uz augšūuuu</button>
     </div>
   </footer>
